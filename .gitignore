@@ -1,0 +1,67 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+__pypackages__/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Packaging / distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+pip-log.txt
+
+# --- Testing & coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# --- Type checking / tooling caches ---
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+.cache/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Environment & secrets ---
+.env
+.env.*
+!.env.example
+.python-version
+
+# --- Project-specific local data ---
+# Tag cache written by the YouTube service
+tag_cache.json
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+
